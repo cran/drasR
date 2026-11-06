@@ -1,0 +1,36 @@
+Package: drasR
+Type: Package
+Title: Drift-Aware Risk-Guaranteed Acceptance Sampling
+Version: 0.1.0
+Authors@R: person("Muhammad Zahir", "Khan", email = "zahirstat007@gmail.com",
+    role = c("aut", "cre"))
+Description: Implements drift-aware risk-guaranteed acceptance sampling methods
+    for adaptive lot disposition. The package provides tools for classical
+    acceptance sampling, producer-risk and consumer-risk assessment,
+    exponentially weighted moving average drift monitoring, adaptive
+    tightening policies, decision fragility analysis, and safety-cost Pareto
+    frontier construction. Classical binomial acceptance-plan design is
+    described in the NIST/SEMATECH e-Handbook of Statistical Methods
+    <https://www.itl.nist.gov/div898/handbook/pmc/section2/pmc232.htm>.
+    Exponentially weighted moving averages follow Roberts (1959)
+    <doi:10.1080/00401706.1959.10489860>. The methods are intended for
+    simulation studies, supplier quality monitoring, and audit-oriented
+    inspection decision support.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: stats, graphics, utils
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
+URL: https://github.com/zerish12/drasR
+BugReports: https://github.com/zerish12/drasR/issues
+RoxygenNote: 7.3.3
+LazyData: true
+NeedsCompilation: no
+Packaged: 2026-10-23 00:17:04 UTC; muhammadzahirkhan
+Author: Muhammad Zahir Khan [aut, cre]
+Maintainer: Muhammad Zahir Khan <zahirstat007@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-11-06 12:30:07 UTC
